@@ -52,7 +52,7 @@ document.onkeyup = function (event) {
         wins++;
         updatewins();
         computerguess = letters[Math.floor(Math.random() * letters.length)];
-        console.log("new guess:" + computerguess);
+        // console.log("new guess:" + computerguess);
         guessesleft = 9;
         updateguesses();
         emptyarray();
@@ -63,10 +63,10 @@ document.onkeyup = function (event) {
         updatelosses();
         emptyarray();
         computerguess = letters[Math.floor(Math.random() * letters.length)];
-        console.log("new guess:" + computerguess);
+        // console.log("new guess:" + computerguess);
         guessesleft = 9;
         loss();
     }
 };
 
-console.log("current guess:" + computerguess);
+// console.log("current guess:" + computerguess);
